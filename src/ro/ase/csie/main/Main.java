@@ -66,7 +66,7 @@ public class Main {
 //            e.printStackTrace();
 //        }
 
-
+        System.out.println(landers.getFirst());
         //write to txt file
         try {
             FileOutputStream fileOutputStream = new FileOutputStream("landed_landers.txt");
